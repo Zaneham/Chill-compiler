@@ -38,13 +38,7 @@ This compiler is for them. Or for historians. Or for people with very specific k
 pip install chill-compiler
 ```
 
-Just kidding, it's not on PyPI yet. Clone the repo like a normal person:
-
-```bash
-git clone https://github.com/Zaneham/chill-compiler
-cd chill-compiler
-pip install -e .
-```
+Yes, really. It's on PyPI. GCC dropped CHILL in 2001 and now you can install a replacement with pip. We live in strange times.
 
 Requires Python 3.8+. If you're running Python 2, I have concerns about your life choices that extend well beyond this compiler.
 
@@ -194,13 +188,23 @@ But for now, Python gets the job done and the irony sustains me.
 
 ## Related Projects
 
+If you've found this compiler, you might be the sort of person who appreciates languages that run critical infrastructure while being thoroughly forgotten by everyone else. Good news: there's more where this came from.
+
 - **[CHILL Language Server](https://github.com/Zaneham/chill-lsp)** - IDE support for VS Code. Has this compiler bundled. You probably want that instead unless you're doing something weird.
 
-- **[JOVIAL J73 LSP](https://github.com/Zaneham/jovial-lsp)** - For the language flying F-15s and B-52s. Different infrastructure, same energy.
+- **[JOVIAL J73 LSP](https://github.com/Zaneham/jovial-lsp)** - The language flying F-15s, B-52s, and AWACS. When your code has to work at Mach 2, you use JOVIAL.
 
-- **[CMS-2 LSP](https://github.com/Zaneham/cms2-lsp)** - US Navy tactical systems. Aegis cruisers and submarines.
+- **[CMS-2 LSP](https://github.com/Zaneham/cms2-lsp)** - US Navy tactical systems. Aegis cruisers and submarines. The language that tracks incoming missiles.
 
-I appear to have a type. The type is "languages that run critical infrastructure and that everyone has forgotten exist."
+- **[CORAL 66 LSP](https://github.com/Zaneham/coral66-lsp)** - British Ministry of Defence real-time language. Tornado aircraft and Royal Navy systems. Very polite error messages, presumably.
+
+- **[HAL/S LSP](https://github.com/Zaneham/hals-lsp)** - NASA's Space Shuttle language. For when your code needs to work in orbit.
+
+- **[MUMPS LSP](https://github.com/Zaneham/mumps-lsp)** - The language running hospital systems worldwide. Your medical records are probably stored in MUMPS. Sleep well.
+
+- **[IBM System/360 Languages](https://github.com/Zaneham/os360-lsp)** - COBOL F, PL/I F, and friends. The mainframes that the telephone switches talked to.
+
+I appear to have a type. The type is "languages that run critical infrastructure and that everyone has forgotten exist." At this point it's less a hobby and more a condition.
 
 ## Contributing
 
@@ -217,14 +221,17 @@ Apache 2.0. See LICENSE.
 
 ## Contact
 
-Zane Hambly
+Questions? Found a bug? Currently maintaining a telephone switch and wondering how your career led to this moment?
+
 zanehambly@gmail.com
 
-If you're a telecommunications company with CHILL code that needs modernising, I'm available for consulting.
+Response time faster than a call setup on a well-maintained EWSD. Available for consulting, commiseration, and/or a cuppa. Will discuss telecommunications history over biscuits. Can explain why your CHILL code does that thing it does. Has opinions about PROCESS scheduling that may differ from yours but will keep them to himself if you're buying.
 
-If you're a historian researching the history of programming languages, I'm available for interviews.
+If you're a telecommunications company with CHILL code that needs modernising, I'm available and surprisingly affordable compared to the alternative (which is "hope the switch doesn't fail").
 
-If you're a GCC maintainer who removed CHILL in 2001, I'm not angry. I'm just disappointed. And also I wrote a replacement compiler. Make of that what you will.
+If you're a GCC maintainer who removed CHILL in 2001, I'm not angry. I'm just disappointed. And also I wrote a replacement compiler. In Python. On purpose.
+
+Timezone: New Zealand (UTC+12/+13), which means I'm already living in your tomorrow. The future looks fine. Your telephone switch is still running. Probably.
 
 ---
 
