@@ -225,7 +225,7 @@ Questions? Found a bug? Currently maintaining a telephone switch and wondering h
 
 zanehambly@gmail.com
 
-Response time faster than a call setup on a well-maintained EWSD. Available for consulting, commiseration, and/or a cuppa. Will discuss telecommunications history over biscuits. Can explain why your CHILL code does that thing it does. Has opinions about PROCESS scheduling that may differ from yours but will keep them to himself if you're buying.
+Response time faster than a call setup on a well-maintained EWSD. Available for consulting, commiseration, and/or a cuppa. Will discuss telecommunications history over biscuits. Can explain why your CHILL code does that thing it does. Will not judge your use of GOTO. Will judge your lack of comments. 1,600 engineers in Munich wrote 45 million lines of CHILL and documented every single one. It's the German way, and they were right.
 
 If you're a telecommunications company with CHILL code that needs modernising, I'm available and surprisingly affordable compared to the alternative (which is "hope the switch doesn't fail").
 
