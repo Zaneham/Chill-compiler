@@ -1,0 +1,88 @@
+/*
+ * Simplified Phone Switch Simulation
+ * Based on EWSD-style call processing
+ *
+ * This demonstrates CHILL's concurrency features
+ * for telephone switching applications.
+ */
+
+MODULE phone_switch;
+
+-- Grant visibility to other modules
+GRANT call_state, process_call;
+
+-- Call states
+NEWMODE call_state = SET(
+    idle,
+    dial_tone,
+    collecting,
+    routing,
+    alerting,
+    connected,
+    releasing
+);
+
+-- Subscriber line data
+NEWMODE line_info = STRUCT(
+    line_id INT,
+    current_state call_state,
+    digit_count INT
+);
+
+-- Inter-process signals
+SIGNAL offhook_detected(line_id INT);
+SIGNAL digit_received(line_id INT, digit INT);
+SIGNAL onhook_detected(line_id INT);
+
+-- Subscriber line handler process
+line_handler: PROCESS(id INT);
+    DCL info line_info;
+    DCL running BOOL := TRUE;
+
+    -- Initialize
+    info.line_id := id;
+    info.current_state := idle;
+    info.digit_count := 0;
+
+    -- Main processing loop
+    DO WHILE running;
+        -- Process would handle signals here
+        -- Simplified: just increment counter
+        info.digit_count := info.digit_count + 1;
+
+        IF info.digit_count > 100 THEN
+            running := FALSE;
+        FI;
+    OD;
+END line_handler;
+
+-- Apply dial tone to a line
+apply_dial_tone: PROC(line_id INT);
+    -- Would interface with hardware
+    /* Dial tone generation */
+END apply_dial_tone;
+
+-- Route a call
+route_call: PROC(from_line INT, to_digits INT) RETURNS(BOOL);
+    DCL success BOOL := FALSE;
+
+    -- Would look up routing tables
+    IF to_digits > 0 THEN
+        success := TRUE;
+    FI;
+
+    RETURN success;
+END route_call;
+
+-- Main switch controller
+switch_controller: PROC();
+    DCL i INT;
+    DCL max_lines INT := 10;
+
+    -- Start handler for each line
+    DO FOR i := 1 TO max_lines;
+        START line_handler(i);
+    OD;
+END switch_controller;
+
+END phone_switch;
