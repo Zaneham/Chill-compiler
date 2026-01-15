@@ -1,6 +1,6 @@
 # CHILL Compiler
 
-A CHILL to C transpiler. Because in 2001, GCC removed CHILL support "due to lack of interest," and in 2025, I have apparently mass quantities of both free time and questionable judgment.
+A CHILL to C transpiler. Because in 2001, GCC removed CHILL support "due to lack of interest," and in 2025, I have apparently large quantities of both free time and questionable judgment.
 
 ## What Is This
 
