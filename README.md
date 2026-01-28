@@ -173,19 +173,6 @@ Let me be clear about what has happened here:
 
 The telephone network continues to function. This is unrelated to anything I have done.
 
-## Why Python?
-
-Honestly? It's hilarious.
-
-CHILL was designed for hard real-time telecommunications systems where microseconds matter. I wrote the compiler in a language with a Global Interpreter Lock and garbage collection pauses. The original CHILL compilers were written in assembly and C by serious engineers at Siemens and Ericsson. This one was written in Python by a guy in New Zealand who thought it would be funny.
-
-In my defence:
-- The *output* is C, which compiles to proper native code
-- It works, which is more than GCC can say since 2001
-- I'll probably rewrite it in C at some point anyway
-
-But for now, Python gets the job done and the irony sustains me.
-
 ## Related Projects
 
 If you've found this compiler, you might be the sort of person who appreciates languages that run critical infrastructure while being thoroughly forgotten by everyone else. Good news: there's more where this came from.
