@@ -151,28 +151,6 @@ bool call_handler_handle_call(int32_t caller_id) {
 
 It's not pretty. It's not optimised. But it compiles, and it runs, and that's more than GCC can say since 2001.
 
-## Limitations
-
-The compiler has limitations. I could list them, but that would be providing a roadmap for people who want to use this commercially without paying me.
-
-Let's just say: it handles core CHILL constructs. If you need full CHILL2000 OOP support, complete I/O system implementation, or multi-module compilation with proper GRANT/SEIZE semantics, we should probably talk.
-
-My email is at the bottom. I accept payment in money, interesting CHILL codebases, or stories about maintaining telephone switches.
-
-## The Absurdity of It All
-
-Let me be clear about what has happened here:
-
-1. In 1980, international committees standardised CHILL
-2. Major telecommunications companies spent billions implementing it
-3. 200 million telephone lines came to depend on it
-4. The open-source world lost interest and removed compiler support
-5. 24 years passed
-6. A random person in New Zealand wrote a new compiler
-7. You are reading the README
-
-The telephone network continues to function. This is unrelated to anything I have done.
-
 ## Related Projects
 
 If you've found this compiler, you might be the sort of person who appreciates languages that run critical infrastructure while being thoroughly forgotten by everyone else. Good news: there's more where this came from.
