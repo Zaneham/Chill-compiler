@@ -224,10 +224,4 @@ Timezone: New Zealand (UTC+12/+13), which means I'm already living in your tomor
 
 *"Removed from GCC due to lack of interest. Resurrected in 2025 due to lack of sense."*
 
----
 
-*"The phones work. Nobody knows why. This compiler will not help you understand."*
-
----
-
-*"CHILL: Connecting the world since 1980. Forgotten by the world since approximately 1985. Inexplicably revived in 2025 by someone who should probably find a healthier hobby."*
